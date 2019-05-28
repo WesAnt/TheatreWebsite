@@ -1,0 +1,222 @@
+/* Make the background black */
+body {
+    background-color: black;  
+}
+
+/* Style the main container */
+#mainContainer {
+    width: 1520px;
+    height: 1820px;
+    border: 6px groove #333333;
+    color: white;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+/* Style the container for the left side images */
+#leftsideImages {
+    position: absolute;
+    border-radius: 20px;
+    height: auto;
+    width: 220px;
+    margin: 0px;
+}
+
+/* Style the right side image container */
+#rightsideImages {
+    float: right;
+/*    border: 2px solid #890a0a;*/
+    border-radius: 20px;
+    height: auto;
+    width: 220px;
+    margin: 0px;
+    padding-right: 8px;
+}
+
+.image1 {
+    width: 232px;
+    height: 230px;
+    margin: 50px auto 0px auto; 
+}
+
+.image2 {
+    width: 232px;
+    height: 230px;
+    margin: 80px auto 0px auto;
+}
+
+.image3 {
+    width: 232px;
+    height: 230px;
+    margin: 100px auto 10px auto; 
+}
+
+.image4 {
+    width: 232px;
+    height: 230px;
+    margin: 100px auto 10px auto;
+}
+
+.image5 {
+    width: 232px;
+    height: 230px;
+    margin: 100px auto 10px auto;  
+}
+
+/* Style the inner container (inside the main container) */
+#innerContainer {
+    background-image: url(images/theatre2.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+
+    width: 1050px;
+    height: 1770px;
+    border: 3px groove #333333;
+    color: white;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+
+/* Style the header text */
+h1 {
+    font-family:fantasy;
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 0px;
+    color: #7065A1;
+}
+
+/* Style the table heading */
+#tables th {
+    text-align: left;
+}
+
+/* Remove the border from the element of the table that contains the button */
+#tableButton {
+    border: 0px;
+}
+
+/* Style the main buttons div container */
+.buttons {
+    margin: auto;
+    width: 1000px;
+    text-align: center;
+}
+
+/* Style the input of the buttons div on the seat.php page */
+.buttons input {
+    width: auto;
+    margin-right: 5px;
+}
+
+/* Style the home div */
+#home {
+    margin: auto;
+    padding: 20px 0px 0px 0px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+}
+
+/* Style the input element of the home div */
+#home input {
+    width: 100px;
+    height: 200px;
+    font-size: 40px;
+}
+
+/* Style the email box to my personal preference */
+#email {
+    margin-top: 8px;
+    width: 1000px;
+    text-align: left;
+    padding-left: 346px;
+}
+
+/* Center the summary on the book.php page */
+#summary {
+    text-align: center;
+}
+
+/*Center the 2nd heading and take out the margin.*/
+h2 {
+    margin: 0;
+    text-align: center;
+}
+
+/*Center the summary heading*/
+h3 {
+    text-align: center;
+}
+
+/* Style the paragraphs to my own personal preference */
+p {
+    padding: 20px 10px 40px 20px;
+    border-style: groove;
+    border-radius: 20px;
+    border-color:#333333 ;
+    margin: 20px 50px 80px 50px;
+    text-align: justify;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+/* Style the welcome heading on the home page */
+#opener {
+    font-size: 30px;
+    text-align: center;
+    margin: 40px 50px 0px 50px;
+    padding: 20px 10px 20px 10px;
+}
+
+/*Define the properties for the footer*/
+#footer p {
+    margin-top: 10px;
+    padding: 0px;
+    border: none;
+    text-align: center;
+    
+}
+
+/* The main image */
+.bodyImage {
+    margin: 40px 0px 0px 210px;
+    text-align: center;
+}
+
+
+
+/* The following animation code was found and adapted to my own preference from the following url: https://css-tricks.com/forums/topic/fading-image-in-and-out-repeatedly/*/
+
+.bodyImage img{
+    width: 630px;
+    height: 530px;
+    -webkit-animation: fade 3s alternate infinite;
+    animation: fade 3s alternate infinite;
+    display: block;
+}
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0.7;
+  }
+
+  100% {
+    opacity: 0;
+  }
+
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+ 0.25×0.5×1× Rerun
+Resources
+
+
